@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gwent</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" media="print" href="../css/print.css" />
+    
+</head>
+<body>
+    <section class="header">
+            <nav id="top-menu" class="menu">
+                <ul class="parent-menu">
+                    <li class="upper-menu"><a href="#about">About</a></li>
+                    <li class="sub-menu-caption upper-menu active"><a href="#northen-realms">Card Decks</a>
+                        <ul class="sub-menu">
+                            <li><a href="#northen-realms">Northen Realms faction</a></li>
+                            <li><a href="#nilfgaard">Nilfgaard faction</a></li>
+                            <li><a href="#scoiatael">Scoia’tael faction</a></li>
+                            <li><a href="#monster">Monster facton</a></li>
+                        </ul>
+                        <div class="icon collapse">&#9652;</div>
+                        <div class="icon expand">&#9662;</div>
+                    </li>
+                    <li class="sub-menu-caption upper-menu"><a href="#foltest">Leaders</a>
+                        <ul class="sub-menu">
+                            <li><a href="#foltest">Northern Realms Leader (King Foltest)</a></li>
+                            <li><a href="#emyhr">Nilfgaard Leader (Emyhr)</a></li>
+                            <li><a href="#francesca">Scoia’tael Leader (Francesca)</a></li>
+                            <li><a href="#eredin">Monsters Deck Leader (Eredin)</a></li>
+                        </ul>
+                        <div class="icon collapse">&#9652;</div>
+                        <div class="icon expand">&#9662;</div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="section-main">
+        <div class="about"> 
+            <h1 id="about">
+                About
+            </h1>
+            <p>
+                <strong>Gwent</strong> is a fast-paced card game that can be played within <em>The Witcher 3: Wild Hunt</em> on every platform.
+                The game is about the clash of two armies locked in mortal struggle on a battlefield where the players are the leaders and the cards their forces. 
+                With four different factions offering unique combat styles and endless paths to victory, 
+                Gwent is every adventurer's first choice when it comes to one-on-one card-based dueling.
+            </p>
+            <p>In total there are 4 decks to choose from:</p>
+            <ul>
+                <li>Northern Realms Gwent deck</li>
+                <li>Nilfgaardian Empire Gwent deck</li>
+                <li>Scoia'tael Gwent deck</li>
+                <li>Monsters Gwent deck</li>
+            </ul>
+        </div>
+        <div class="decks">
+            <div class="deck norther-realms" id="northen-realms">
+                <h1>Northen Realms faction</h1>
+                <ul>
+                    <li><img class="card" src="../images/northen_commando.png" alt="Blue Stripes Commando">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Blue Stripes Commando</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> melee</p>
+                                <p><strong>Special Ability:</strong> Tight Bond: Place next to a card with the same name to double the strength of both cards.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/northen_djikstra.png" alt="Djikstra">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Djikstra</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> melee</p>
+                                <p><strong>Special Ability:</strong> Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.</p>
+                            </div>
+                        </div></li>
+                    
+                    <li><img class="card" src="../images/northen_siege-expert.png" alt="Kaedweni Siege Expert">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Kaedweni Siege Expert</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> siege</p>
+                                <p><strong>Special Ability:</strong> Morale boost: Adds +1 to all units in the row (excluding itself).</p>
+                            </div>
+                        </div></li>
+                </ul>
+            </div>
+            <div class="deck nilfgaard" id="nilfgaard">
+                <h1>Nilfgaard faction</h1>
+                <ul>
+                    <li><img class="card" src="../images/nilfgaard_archer.png" alt="Etolian Auxiliary Archers">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Etolian Auxiliary Archers</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> ranged</p>
+                                <p><strong>Special Ability:</strong> Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/nilfgaard_letho.png" alt="Letho of Gulet">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Letho of Gulet</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> Hero</p>
+                                <p><strong>Row:</strong> melee</p>
+                                <p><strong>Special Ability:</strong> Hero: Not affected by any Special Cards or abilities.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/nilfgaard_scorpion.png" alt="Heavy Zerrikanian Fire Scorpion">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Heavy Zerrikanian Fire Scorpion</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> siege</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="deck scoiatael" id="scoiatael">
+                <h1>Scoia’tael faction</h1>
+                <ul>
+                    <li><img class="card" src="../images/scoiatael_eithne.png" alt="Eithne">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Eithne</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> Hero</p>
+                                <p><strong>Row:</strong> ranged</p>
+                                <p><strong>Special Ability:</strong> Hero: Not affected by any Special Cards or abilities.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/scoiatael_schirru.png" alt="Schirru">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Schirru</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> Hero</p>
+                                <p><strong>Row:</strong> siege</p>
+                                <p><strong>Special Ability:</strong> Scorch - Siege: Destroys your enemy's strongest Siege Combat unit(s) if the combined strength of all his 
+                                    or her Siege Combat units is 10 or more.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/scoiatael_vrihedd-brigade.png" alt="Vrihedd Brigade Veteran">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Vrihedd Brigade Veteran</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> melee/ranged</p>
+                                <p><strong>Special Ability:</strong> Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="deck monster" id="monster">
+                <h1>Monster faction</h1>
+                <ul>
+                    <li><img class="card" src="../images/monster_arachas.png" alt="Arachas">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Arachas</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> melee</p>
+                                <p><strong>Special Ability:</strong> Muster: Find any cards with the same name in your deck and play them instantly.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/monster_crone.png" alt="crone: Whispess">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>crone: Whispess</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> unit</p>
+                                <p><strong>Row:</strong> melee</p>
+                                <p><strong>Special Ability:</strong> Muster: Find any cards with the same name in your deck and play them instantly.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><img class="card" src="../images/monster_leshen.png" alt="Leshen">
+                        <div class="description hidden">
+                            <div class="card-name "><strong>Leshen</strong></div>
+                            <div class="details ">
+                                <p><strong>Type:</strong> Hero</p>
+                                <p><strong>Row:</strong> raged</p>
+                                <p><strong>Special Ability:</strong> Hero: Not affected by any Special Cards or abilities.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="leaders">
+            <div class="deck norther-realms" id="foltest">
+                <h1>Northern Realms Leader (King Foltest)</h1>
+                <div>
+                    <img class="leader-img" src="../images/leader_foltest.png" alt="King Foltest">
+                    <div class="description">
+                        <p><strong>Special Ability:</strong>Pick an Impenetrable Fog card from your deck and play it instantly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="deck nilfgaard" id="emyhr">
+                <h1>Nilfgaard Leader (Emyhr)</h1>
+                <div>
+                    <img class="leader-img" src="../images/leader_emyrh.png" alt="Emyhr">
+                    <div class="description">
+                        <p><strong>Special Ability:</strong>The White Flame: Cancel your opponent's Leader Ability.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="deck scoiatael" id="francesa">
+                <h1>Scoia’tael Leader (Francesca)</h1>
+                <div>
+                    <img class="leader-img" src="../images/leader_francesca.png" alt="Francesca">
+                    <div class="description">
+                        <p><strong>Special Ability:</strong>Daisy of the Valley: Draw an extra card at the beginning of the battle.</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="deck monster" id="eredin">
+                <h1>Monsters Deck Leader (Eredin)</h1>
+                <div>
+                    <img class="leader-img" src="../images/leader_eredin.png" alt="Eredin">
+                    <div class="description">
+                        <p><strong>Special Ability:</strong>Discard 2 card and draw 1 card of your choice from your deck.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
